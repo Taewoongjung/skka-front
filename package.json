@@ -12,6 +12,7 @@
     ]
   },
   "dependencies": {
+    "@emotion/styled": "^11.10.6",
     "@loadable/component": "^5.15.3",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
