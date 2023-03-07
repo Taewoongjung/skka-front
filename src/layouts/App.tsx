@@ -2,7 +2,6 @@ import React from 'react';
 import loadable from '@loadable/component';
 import {Redirect, Switch, Route} from 'react-router-dom';
 
-// @ts-ignore
 const Main = loadable(() => import('../pages/Main/index'));
 // const Login = loadable(() => import('../pages/Auth/Login'));
 // const Signup = loadable(() => import('../pages/Auth/Signup'));

@@ -14,13 +14,6 @@ export const Contents = styled.div`
     padding-left: 20px;
 `;
 
-export const SideBar = styled.div`
-    height: 100%;
-    width: 500px;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: #111;
-    overflow-x: hidden;
+export const InnerDivInTheNameOfTitle = styled.div`
+    text-align: center;
 `;
