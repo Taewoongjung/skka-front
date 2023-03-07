@@ -6,6 +6,7 @@ import Entrance from "../../components/Entrance";
 import SideBar from "../../components/SideBar";
 import SideBarState from "../../state_manager/store";
 import EmptySpace from "../../components/EmptySpace";
+import TopNav from "../../components/TopNav";
 
 const Main = () => {
 
@@ -17,19 +18,19 @@ const Main = () => {
 
             <Contents>
             <Table>
-                <EmptySpace sideBarObj={sideBarState}/>
-                <EmptySpace sideBarObj={sideBarState}/>
+                <EmptySpace sideBarObj={sideBarState}>111</EmptySpace>
+                <EmptySpace sideBarObj={sideBarState}>111</EmptySpace>
                 <div>
                     <InnerDivInTheNameOfTitle>SKKA - 죽전 보정점 </InnerDivInTheNameOfTitle><br/>
                     <InnerDivInTheNameOfTitle>좌석 배치도</InnerDivInTheNameOfTitle>
                 </div>
-                <EmptySpace sideBarObj={sideBarState}/>
-                <EmptySpace sideBarObj={sideBarState}/>
-                <EmptySpace sideBarObj={sideBarState}/>
+                <EmptySpace sideBarObj={sideBarState}>22233</EmptySpace>
+                <TopNav/>
+                <EmptySpace sideBarObj={sideBarState}>987887</EmptySpace>
                 <Desk sideBarObj={sideBarState} seatNum={1} />
                 <Desk sideBarObj={sideBarState} seatNum={2}/>
                 <Desk sideBarObj={sideBarState} seatNum={3}/>
-                <Entrance/>
+                <EmptySpace sideBarObj={sideBarState}>987887</EmptySpace>
                 <EmptySpace sideBarObj={sideBarState}/>
                 <Desk sideBarObj={sideBarState} seatNum={4}/>
                 <Desk sideBarObj={sideBarState} seatNum={5}/>
@@ -39,7 +40,7 @@ const Main = () => {
                 <Desk sideBarObj={sideBarState} seatNum={7}/>
                 <Desk sideBarObj={sideBarState} seatNum={8}/>
                 <Desk sideBarObj={sideBarState} seatNum={9}/>
-                <EmptySpace sideBarObj={sideBarState}/>
+                <Entrance/>
                 <EmptySpace sideBarObj={sideBarState}/>
                 <Desk sideBarObj={sideBarState} seatNum={10}/>
                 <Desk sideBarObj={sideBarState} seatNum={11}/>

@@ -8,7 +8,7 @@ const EmptySpace = (props:any) => {
 
     const clickHandler = useCallback((e:any) => {
         state.sideBarObject.setStateFalse();
-    },[]);
+    },[state.sideBarObject]);
 
     return useObserver(() => (
         <div onClick={clickHandler} />

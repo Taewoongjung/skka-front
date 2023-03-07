@@ -14,7 +14,7 @@ const Desk = (props:any) => {
         state.sideBarObject.setStateTrue();
         state.sideBarObject.setSeatNum(state.seatNumber);
         state.sideBarObject.setReserveRetrieve();
-    },[]);
+    },[state.seatNumber, state.sideBarObject]);
 
     return useObserver(() => (
         <div>
