@@ -1,6 +1,6 @@
 import {useLocalStore, useObserver} from "mobx-react";
 import {Bar, MenuIcon, NavItems, NavMenu, Whole} from "./style";
-import {NavMenuItemsForNotLoggedIn} from "../NavMenuItems/ForNotLoggedIn";
+import {NavMenuItemsForNotLoggedIn} from "../NavMenuItems/ForLoggedIn";
 import {useCallback} from "react";
 
 const TopNav = () => {

@@ -2,12 +2,12 @@ import "../style.css"
 
 export const NavMenuItemsForNotLoggedIn = [
     {
-        title: 'Home',
-        url: '#',
+        title: 'Cancel',
+        url: '/first',
         cName: 'nav-links-fir'
     },
     {
-        title: 'Service',
+        title: 'MyPage',
         url: '#',
         cName: 'nav-links-sec'
     },
@@ -15,10 +15,5 @@ export const NavMenuItemsForNotLoggedIn = [
         title: 'Products',
         url: '#',
         cName: 'nav-links-third'
-    },
-    {
-        title: 'Contact Us',
-        url: '#',
-        cName: 'nav-links-fourth'
     }
 ]

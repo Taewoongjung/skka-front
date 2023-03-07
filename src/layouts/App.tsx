@@ -3,7 +3,7 @@ import loadable from '@loadable/component';
 import {Redirect, Switch, Route} from 'react-router-dom';
 
 const Main = loadable(() => import('../pages/Main/index'));
-// const Login = loadable(() => import('../pages/Auth/Login'));
+const First = loadable(() => import('../pages/First/index'));
 // const Signup = loadable(() => import('../pages/Auth/Signup'));
 
 const App = () => {
@@ -11,7 +11,7 @@ const App = () => {
       <Switch>
           <Redirect exact path="/" to="/main"/>
           <Route path="/main" component={Main}/>
-          {/*<Route path="/login" component={Login}/>*/}
+          <Route path="/first" component={First}/>
           {/*<Route path="/signup" component={Signup}/>*/}
       </Switch>
   )
